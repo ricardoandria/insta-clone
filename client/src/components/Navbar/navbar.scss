@@ -1,0 +1,44 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  border-bottom: 1px solid #efefef;
+  background-color: white;
+  position: fixed;
+  box-shadow: 24px;
+  .nContainer {
+    width: 50%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+
+    .logo {
+      .ImgLogo {
+        width: 70px;
+      }
+    }
+    .nSearch {
+      padding: 5px;
+      margin-left: 150px;
+      gap: 5px;
+    }
+    .navigation {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-left: 70px;
+      .iconNav {
+        cursor: pointer;
+      }
+    }
+  }
+}
+.modalContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  outline: none;
+  border: none;
+}

@@ -1,0 +1,105 @@
+.List {
+  padding: 5px;
+  width: 210px;
+  position: fixed;
+  .listContainer {
+    .profilDetails {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .pdLeft {
+        display: flex;
+        align-items: center;
+
+        gap: 5px;
+
+        img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+        .pdLname {
+          font-size: 11px;
+          margin-top: -5px;
+          h5 {
+            color: #555;
+          }
+          p {
+            font-size: 8px;
+            margin-top: -15px;
+            color: #555;
+          }
+        }
+      }
+      .pdRight {
+        button {
+          border: none;
+          font-size: 7px;
+          font-weight: 600;
+          color: #0095f6;
+        }
+      }
+    }
+    .middleList {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      span {
+        font-size: 10px;
+        color: #555;
+        font-weight: 600;
+      }
+      button {
+        border: none;
+        font-size: 8px;
+        font-weight: 600;
+      }
+    }
+    .suggAmis {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+      .suggLeft {
+        display: flex;
+        align-items: center;
+
+        gap: 5px;
+
+        img {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+        .pdLname {
+          font-size: 11px;
+          margin-top: -10px;
+          h5 {
+            color: #555;
+          }
+          p {
+            font-size: 8px;
+            margin-top: -15px;
+            color: #555;
+          }
+        }
+      }
+      .suggRight {
+        button {
+          border: none;
+          font-size: 7px;
+          font-weight: 600;
+          color: #0095f6;
+        }
+      }
+    }
+    .bttom {
+      p {
+        font-size: 8px;
+        color: #555;
+      }
+    }
+  }
+}

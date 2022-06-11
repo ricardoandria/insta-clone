@@ -1,0 +1,72 @@
+.profil {
+  background-color: #efefef;
+  width: 100%;
+  min-height: 100vh;
+  .profilContainer {
+    width: 100%;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+
+    .headerProfil {
+      display: flex;
+      align-items: center;
+      width: 45%;
+      gap: 20px;
+
+      .hpLeft {
+        img {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          object-fit: cover;
+          padding: 2px;
+          border: 1px solid rgb(164, 159, 159);
+        }
+      }
+      .hpRight {
+        display: flex;
+        margin-left: 20px;
+        flex-direction: column;
+
+        .top {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          margin-top: -10px;
+          .username {
+            font-size: 20px;
+            color: rgb(164, 159, 159);
+            font-weight: 200;
+          }
+          .setting {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .editProfil {
+              font-size: 12px;
+              border: 1px solid rgb(164, 159, 159);
+              border-radius: 2px;
+            }
+          }
+        }
+        .mid {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          margin-top: -15px;
+          p {
+            font-size: 10px;
+          }
+        }
+        .bot {
+          font-size: 12px;
+          margin-top: -10px;
+        }
+      }
+    }
+  }
+}

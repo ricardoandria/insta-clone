@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACJ,SAAS,EAAE,IAAI;EACf,YAAY,EAAE,IAAI;EAClB,KAAK,EAAE,OAAO;EACd,eAAe,EAAE,IAAI;CACtB",
+    "sources": [
+        "accountMenu.scss"
+    ],
+    "names": [],
+    "file": "accountMenu.css"
+}

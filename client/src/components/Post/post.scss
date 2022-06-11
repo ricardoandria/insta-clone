@@ -1,0 +1,138 @@
+.post {
+  width: 320px;
+
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  .postContainer {
+    display: flex;
+    flex-direction: column;
+    .postHeader {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      align-items: center;
+      .phLeft {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        .profilImg {
+          width: 24px;
+          height: 24px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+        .name {
+          font-size: 10px;
+          font-weight: 600;
+        }
+      }
+      .phRight {
+        font-size: 12px;
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s ease;
+        &:hover {
+          background-color: #efefef;
+        }
+      }
+    }
+    .postImages {
+      .pImg {
+        width: 320px;
+        height: 400px;
+        object-fit: cover;
+      }
+    }
+    .postFooter {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 0px 10px;
+      .postFooter1 {
+        display: flex;
+        justify-content: space-between;
+
+        align-items: center;
+        .pf1Left {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          .iconHeart {
+            cursor: pointer;
+            transition: 0.5 ease;
+          }
+          .iconHeart.cliked {
+            color: red;
+          }
+
+          .iconComment {
+            cursor: pointer;
+          }
+          .iconPaper {
+            cursor: pointer;
+          }
+        }
+      }
+      .likeNumber {
+        font-size: 10px;
+        letter-spacing: 1px;
+        font-weight: 400;
+      }
+      .postLegend {
+        margin-top: -20px;
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        font-size: 11px;
+        .postname {
+          font-weight: 600;
+        }
+      }
+      .seemoreCommentaire {
+        cursor: pointer;
+        font-size: 11px;
+        margin-top: -20px;
+        color: #555;
+      }
+      .timestamp {
+        font-size: 8px;
+        color: #555;
+        margin-top: -20px;
+      }
+      .commentContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #efefef;
+        padding: 10px;
+
+        .ccLeft {
+          display: flex;
+          gap: 5px;
+          align-items: center;
+          .iconSmile {
+            margin-left: -5px;
+          }
+          input {
+            border: none;
+            font-size: 10px;
+            outline: none;
+          }
+        }
+        .btnPost {
+          border: none;
+          background-color: white;
+          color: #0095f6;
+          font-size: 10px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

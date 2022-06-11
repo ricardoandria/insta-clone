@@ -1,0 +1,189 @@
+.login {
+  background-color: #fafafa;
+  width: 100%;
+  height: 100vh;
+}
+
+.login .loginContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.login .loginContainer .PhoneContainer {
+  width: 50%;
+  position: relative;
+}
+
+.login .loginContainer .PhoneContainer img {
+  width: 320px;
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
+
+.login .loginContainer .formContainer {
+  width: 50%;
+}
+
+.login .loginContainer .formContainer .formContainerTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  width: 250px;
+  border: 1px solid #efefef;
+  padding: 0 5px;
+  margin-top: 110px;
+}
+
+.login .loginContainer .formContainer .formContainerTop img {
+  width: 100px;
+  padding: 15px 0;
+}
+
+.login .loginContainer .formContainer .formContainerTop form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.login .loginContainer .formContainer .formContainerTop form input {
+  width: 180px;
+  outline: none;
+  padding: 7px;
+  background-color: #fafafa;
+  border: none;
+  font-size: 9px;
+  border: 1px solid #efefef;
+}
+
+.login .loginContainer .formContainer .formContainerTop form .btnlogin {
+  padding: 5px;
+  background-color: #0095f6;
+  font-size: 10px;
+  color: white;
+  border-radius: 3px;
+  margin: 5px;
+}
+
+.login .loginContainer .formContainer .formContainerTop .ou {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.login .loginContainer .formContainer .formContainerTop .connectFb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login .loginContainer .formContainer .formContainerTop .connectFb img {
+  width: 10px;
+}
+
+.login .loginContainer .formContainer .formContainerTop .connectFb .seConnecterFb {
+  border: none;
+  background-color: white;
+  font-size: 10px;
+  color: #385186;
+  cursor: pointer;
+}
+
+.login .loginContainer .formContainer .formContainerTop .forgetPassword {
+  font-size: 9px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.login .loginContainer .formContainer .formMid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 250px;
+  background-color: white;
+  padding: 5px;
+  margin-top: 10px;
+  border: 1px solid #efefef;
+}
+
+.login .loginContainer .formContainer .formMid p {
+  font-size: 10px;
+}
+
+.login .loginContainer .formContainer .formMid .inscrire {
+  border: none;
+  font-size: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.login .loginContainer .formContainer .formMid .inscrire span {
+  color: #0095f6;
+}
+
+.login .loginContainer .formContainer .downApp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 250px;
+  margin-top: 10px;
+}
+
+.login .loginContainer .formContainer .downApp span {
+  font-size: 10px;
+}
+
+.login .loginContainer .formContainer .imageDown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 250px;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.login .loginContainer .formContainer .imageDown img {
+  width: 100px;
+}
+/*# sourceMappingURL=login.css.map */

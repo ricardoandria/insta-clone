@@ -1,0 +1,129 @@
+.login {
+  background-color: #fafafa;
+  width: 100%;
+  height: 100vh;
+  .loginContainer {
+    width: 100%;
+    display: flex;
+    .PhoneContainer {
+      width: 50%;
+      position: relative;
+      img {
+        width: 320px;
+        position: absolute;
+        top: 100px;
+        right: 0;
+      }
+    }
+    .formContainer {
+      width: 50%;
+
+      .formContainerTop {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 250px;
+        border: 1px solid #efefef;
+        padding: 0 5px;
+        margin-top: 110px;
+        img {
+          width: 100px;
+          padding: 15px 0;
+        }
+        form {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          input {
+            width: 180px;
+            outline: none;
+            padding: 7px;
+            background-color: #fafafa;
+            border: none;
+            font-size: 9px;
+            border: 1px solid #efefef;
+          }
+          .btnlogin {
+            padding: 5px;
+            background-color: #0095f6;
+            font-size: 10px;
+            color: white;
+            border-radius: 3px;
+            margin: 5px;
+          }
+        }
+        .ou {
+          font-size: 12px;
+          margin-top: 10px;
+        }
+        .connectFb {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: 10px;
+          }
+          .seConnecterFb {
+            border: none;
+            background-color: white;
+            font-size: 10px;
+            color: #385186;
+            cursor: pointer;
+          }
+        }
+        .forgetPassword {
+          font-size: 9px;
+          cursor: pointer;
+          margin-bottom: 20px;
+        }
+      }
+      .formMid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        background-color: white;
+        padding: 5px;
+        margin-top: 10px;
+        border: 1px solid #efefef;
+        p {
+          font-size: 10px;
+        }
+        .inscrire {
+          border: none;
+          font-size: 10px;
+          background-color: white;
+
+          cursor: pointer;
+          span {
+            color: #0095f6;
+          }
+        }
+      }
+      .downApp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        margin-top: 10px;
+        span {
+          font-size: 10px;
+        }
+      }
+      .imageDown {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        margin-top: 10px;
+        gap: 5px;
+        img {
+          width: 100px;
+        }
+      }
+    }
+  }
+}

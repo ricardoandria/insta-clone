@@ -1,0 +1,212 @@
+.post {
+  width: 320px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.post .postContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.post .postContainer .postHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post .postContainer .postHeader .phLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.post .postContainer .postHeader .phLeft .profilImg {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.post .postContainer .postHeader .phLeft .name {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.post .postContainer .postHeader .phRight {
+  font-size: 12px;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.post .postContainer .postHeader .phRight:hover {
+  background-color: #efefef;
+}
+
+.post .postContainer .postImages .pImg {
+  width: 320px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.post .postContainer .postFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  padding: 0px 10px;
+}
+
+.post .postContainer .postFooter .postFooter1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post .postContainer .postFooter .postFooter1 .pf1Left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.post .postContainer .postFooter .postFooter1 .pf1Left .iconHeart {
+  cursor: pointer;
+  -webkit-transition: 0.5 ease;
+  transition: 0.5 ease;
+}
+
+.post .postContainer .postFooter .postFooter1 .pf1Left .iconHeart.cliked {
+  color: red;
+}
+
+.post .postContainer .postFooter .postFooter1 .pf1Left .iconComment {
+  cursor: pointer;
+}
+
+.post .postContainer .postFooter .postFooter1 .pf1Left .iconPaper {
+  cursor: pointer;
+}
+
+.post .postContainer .postFooter .likeNumber {
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.post .postContainer .postFooter .postLegend {
+  margin-top: -20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2px;
+  font-size: 11px;
+}
+
+.post .postContainer .postFooter .postLegend .postname {
+  font-weight: 600;
+}
+
+.post .postContainer .postFooter .seemoreCommentaire {
+  cursor: pointer;
+  font-size: 11px;
+  margin-top: -20px;
+  color: #555;
+}
+
+.post .postContainer .postFooter .timestamp {
+  font-size: 8px;
+  color: #555;
+  margin-top: -20px;
+}
+
+.post .postContainer .postFooter .commentContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid #efefef;
+  padding: 10px;
+}
+
+.post .postContainer .postFooter .commentContainer .ccLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post .postContainer .postFooter .commentContainer .ccLeft .iconSmile {
+  margin-left: -5px;
+}
+
+.post .postContainer .postFooter .commentContainer .ccLeft input {
+  border: none;
+  font-size: 10px;
+  outline: none;
+}
+
+.post .postContainer .postFooter .commentContainer .btnPost {
+  border: none;
+  background-color: white;
+  color: #0095f6;
+  font-size: 10px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=post.css.map */

@@ -1,0 +1,138 @@
+.List {
+  padding: 5px;
+  width: 210px;
+  position: fixed;
+}
+
+.List .listContainer .profilDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.List .listContainer .profilDetails .pdLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.List .listContainer .profilDetails .pdLeft img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.List .listContainer .profilDetails .pdLeft .pdLname {
+  font-size: 11px;
+  margin-top: -5px;
+}
+
+.List .listContainer .profilDetails .pdLeft .pdLname h5 {
+  color: #555;
+}
+
+.List .listContainer .profilDetails .pdLeft .pdLname p {
+  font-size: 8px;
+  margin-top: -15px;
+  color: #555;
+}
+
+.List .listContainer .profilDetails .pdRight button {
+  border: none;
+  font-size: 7px;
+  font-weight: 600;
+  color: #0095f6;
+}
+
+.List .listContainer .middleList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+}
+
+.List .listContainer .middleList span {
+  font-size: 10px;
+  color: #555;
+  font-weight: 600;
+}
+
+.List .listContainer .middleList button {
+  border: none;
+  font-size: 8px;
+  font-weight: 600;
+}
+
+.List .listContainer .suggAmis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+.List .listContainer .suggAmis .suggLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.List .listContainer .suggAmis .suggLeft img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.List .listContainer .suggAmis .suggLeft .pdLname {
+  font-size: 11px;
+  margin-top: -10px;
+}
+
+.List .listContainer .suggAmis .suggLeft .pdLname h5 {
+  color: #555;
+}
+
+.List .listContainer .suggAmis .suggLeft .pdLname p {
+  font-size: 8px;
+  margin-top: -15px;
+  color: #555;
+}
+
+.List .listContainer .suggAmis .suggRight button {
+  border: none;
+  font-size: 7px;
+  font-weight: 600;
+  color: #0095f6;
+}
+
+.List .listContainer .bttom p {
+  font-size: 8px;
+  color: #555;
+}
+/*# sourceMappingURL=list.css.map */

@@ -1,0 +1,44 @@
+.Home {
+  width: 100%;
+}
+
+.Home .homeContainer {
+  width: 100%;
+  background-color: #efefef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 50px;
+  min-height: 91vh;
+}
+
+.Home .homeContainer .homeItem {
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.Home .homeContainer .homeItem .hCLeft {
+  width: 60%;
+}
+
+.Home .homeContainer .homeItem .hCLeft .PostContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.Home .homeContainer .homeItem .hCRight {
+  width: 40%;
+}
+/*# sourceMappingURL=home.css.map */

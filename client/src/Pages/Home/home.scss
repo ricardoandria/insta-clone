@@ -1,0 +1,28 @@
+.Home {
+  width: 100%;
+  .homeContainer {
+    width: 100%;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    min-height: 91vh;
+    .homeItem {
+      width: 45%;
+
+      display: flex;
+      gap: 10px;
+      .hCLeft {
+        width: 60%;
+        .PostContainer {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+      }
+      .hCRight {
+        width: 40%;
+      }
+    }
+  }
+}
